@@ -41,3 +41,4 @@ for letter in s:
 
 s_iter = iter(s) # have to add iter in order to use the "next"
 print(next(s_iter)) # output: h
+
