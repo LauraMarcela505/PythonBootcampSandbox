@@ -18,7 +18,6 @@ print(match.end()) # 17
 text = "my phone once, my phone twice"
 matches = (re.findall("phone",text))
 print(matches) # number of times the text "phone" shows up
-print(len(matches))
 
 
 for match in re.finditer("phone",text):
